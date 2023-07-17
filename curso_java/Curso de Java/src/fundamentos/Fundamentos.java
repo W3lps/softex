@@ -1,4 +1,4 @@
-package cursoJava;
+package fundamentos;
 
 public class Fundamentos {
 
@@ -16,6 +16,7 @@ public class Fundamentos {
 		System.out.println("Temperatura: " + temperatura);
 		System.out.println("Ar condicionado: " + arCondicionado);
 		System.out.println("_____________________________________________");
+		
 		System.out.println("");
 		System.out.println("Operadores aritméticos e operações");
 		double i = 10;
@@ -33,7 +34,33 @@ public class Fundamentos {
 		System.out.println("I ++         | i = " + i);
 		i--;
 		System.out.println("I --         | i = " + i);
-
+		System.out.println("_____________________________________");
+		
+		System.out.println("Uso de IF");
+		sexo = 'F';
+		if (sexo == 'M') {
+		System.out.println("Alistamento Militar Obrigatório");
+		} else {
+			System.out.println("Alistamento não obrigatório");
+		}
+		if (idade < 18) {
+		System.out.println("Menor de Idade");
+		} else {
+			System.out.println("Maior de Idade");
+		}
+		
+		if (idade < 16) {
+		System.out.println("Voto não é permitido");
+		} else if (idade >= 18 && idade <= 70){
+			System.out.println("Voto Obrigatório");
+		} else if (idade == 16 || idade == 17 || idade >70) {
+			System.out.println("Voto facultativo");
+		}
+		System.out.println("_____________________________________");
+		
+		System.out.println("Uso de Loops");
+		System.out.println("Estruturas de Repetição");
 	}
+
 
 }

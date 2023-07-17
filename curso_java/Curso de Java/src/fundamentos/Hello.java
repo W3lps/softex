@@ -1,7 +1,7 @@
 /**
  * 
  */
-package cursoJava;
+package fundamentos;
 
 /**
  * @author welin
